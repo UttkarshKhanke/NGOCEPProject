@@ -12,6 +12,8 @@ mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
 
+app.use("/api/contact", require("./routes/contactRoutes"));
+
 // env port or fallback
 const PORT = process.env.PORT || 5000;
 
