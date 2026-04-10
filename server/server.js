@@ -13,6 +13,7 @@ mongoose.connect(process.env.MONGO_URI)
 .catch(err => console.log(err));
 
 app.use("/api/contact", require("./routes/contactRoutes"));
+app.use("/api/ourwork", require("./routes/ourworkRoutes"));
 
 // env port or fallback
 const PORT = process.env.PORT || 5000;
