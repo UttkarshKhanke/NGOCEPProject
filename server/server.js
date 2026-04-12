@@ -17,6 +17,7 @@ app.use("/api/ourwork", require("./routes/ourworkRoutes"));
 app.use("/api/donations", require("./routes/donationRoutes"));
 app.use("/api/dropoff", require("./routes/dropoffRoutes"));
 app.use("/api/porterservice", require("./routes/porterserviceRoutes"));
+app.use("/api/topdonors", require("./routes/topdonorsRoutes"));
 
 // env port or fallback
 const PORT = process.env.PORT || 5000;
