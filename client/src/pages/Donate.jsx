@@ -167,10 +167,10 @@ function Donate() {
             // UPI ID enter HERE
             // abc@okicici
             //pay?pa=abc@okicici&pn=Atmadeepum%20Society&cu=INR
-              src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=uttkarsh.khanke@okicici&pn=Atmadeepum%20Society&cu=INR"
+              src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=abc@okicici&pn=Atmadeepum%20Society&cu=INR"
               alt="QR Code"
             />
-            <p><strong>UPI ID:</strong> uttkarsh.khanke@okicici</p>
+            <p><strong>UPI ID:</strong> abc@okicici</p>
           </div>
         </div>
       </section>
